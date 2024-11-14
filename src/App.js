@@ -1,9 +1,9 @@
-import './App.css';
 import React, { Component } from 'react';
+import './App.css';
+import CreateArticle from './component/CreateArticle';
 import Myheader from './component/Myheader';
 import Mynav from './component/Mynav';
 import ReadArticle from './component/ReadArticle';
-import CreateArticle from './component/CreateArticle';
 import UpdateArticle from './component/UpdateArticle';
 
 class App extends Component {
@@ -25,7 +25,7 @@ class App extends Component {
         {
           id: 1,
           title: 'UI/UX 개발 ',
-          desc: '사용자 인터페이스와 사용자가 웹사이트를 이용하면 느끼고 생각하는 총체적 경험을 개발 ',
+          desc: '사용자 인터페이스와 사용자가 웹사이트를 이용하면 느끼고 생각하는 총체적 경험을 개발하기 싫음 ',
         },
         {
           id: 2,
